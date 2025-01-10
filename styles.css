@@ -1,0 +1,19 @@
+.main-container {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 5fr;
+}
+
+.sidebar {
+    background-color: aqua;
+    grid-row: 1 / 3;
+}
+.header {
+    background-color: aquamarine;
+}
+
+.main-content {
+    background-color: brown;
+}
