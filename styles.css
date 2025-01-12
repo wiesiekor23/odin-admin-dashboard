@@ -19,8 +19,14 @@ body {
     color: white;
     font-size: 24px;
     font-weight: bolder;
-    
+    padding-top: 24px;
 }
+
+.sidebar-top {
+    font-size: 32px;
+    align-items: center;
+}
+
 .header {
     background-color: aquamarine;
 }
@@ -43,4 +49,10 @@ svg path {
 
 .logo {
     justify-self: end;
+}
+
+.sidebar-middle,
+.sidebar-bottom {
+    display: grid;
+    gap: 8px;
 }
