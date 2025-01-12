@@ -56,3 +56,8 @@ svg path {
     display: grid;
     gap: 8px;
 }
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
