@@ -60,4 +60,9 @@ svg path {
 a {
     text-decoration: none;
     color: inherit;
+    transition: all 0.1s ease;
+}
+
+a:hover {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
 }
