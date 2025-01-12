@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 .main-container {
     width: 100vw;
     height: 100vh;
@@ -7,8 +11,15 @@
 }
 
 .sidebar {
-    background-color: aqua;
+    display: grid;
+    background-color: rgb(26, 163, 255);
     grid-row: 1 / 3;
+    align-content: start;
+    row-gap: 36px;
+    color: white;
+    font-size: 24px;
+    font-weight: bolder;
+    
 }
 .header {
     background-color: aquamarine;
@@ -16,4 +27,20 @@
 
 .main-content {
     background-color: brown;
+}
+
+svg path {
+    fill: white;
+}
+
+.middle,
+.sidebar-top,
+.bottom {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 16px;
+}
+
+.logo {
+    justify-self: end;
 }
