@@ -29,6 +29,38 @@ body {
 
 .header {
     background-color: aquamarine;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.header-top {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.header-top-left {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.header-top-right {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.header-bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.header-bottom-left {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.header-bottom-right {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .main-content {
