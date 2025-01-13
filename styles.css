@@ -35,7 +35,7 @@ body {
     background-color: brown;
 }
 
-svg path {
+.svg-sidebar path {
     fill: white;
 }
 
