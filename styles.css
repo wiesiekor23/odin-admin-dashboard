@@ -85,9 +85,28 @@ input:focus {
 
 .header-bottom-left {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 3fr;
     align-items: center;
+    gap: 16px;
 }
+
+.bottom-user-icon {
+    justify-self: end;
+}
+
+p {
+    margin: 8px;
+    font-weight: bolder;
+}
+
+.invite {
+    font-size: 16px;
+}
+
+.name {
+    font-size: 24px;
+}
+
 
 .header-bottom-right {
     display: grid;
