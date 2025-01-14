@@ -40,8 +40,26 @@ body {
 
 .header-top-left {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 8fr;
     align-items: center;
+    gap: 10px;
+}
+
+.search-icon {
+    justify-self: end;
+}
+
+input {
+    width: 90%;
+    height: 36px;
+    border-radius: 16px;
+    border: none;
+    background-color:azure;
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid red;
 }
 
 .header-top-right {
