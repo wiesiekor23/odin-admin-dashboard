@@ -146,9 +146,6 @@ button:active {
     background-color: rgb(95, 188, 250);
 }
 
-.main-content {
-    background-color: brown;
-}
 
 .svg-sidebar path {
     fill: white;
@@ -180,4 +177,17 @@ a {
 
 a:hover {
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.main-content {
+    background-color: brown;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 12fr;
+}
+
+.description-text {
+    font-weight: 500;
+    font-size: 24px;
+    align-self: end;
 }
