@@ -94,7 +94,7 @@ input:focus {
     justify-self: end;
 }
 
-p {
+.bottom-user-name p {
     margin: 8px;
     font-weight: bolder;
 }
