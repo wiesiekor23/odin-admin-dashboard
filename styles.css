@@ -194,9 +194,22 @@ a:hover {
 
 .cards {
     display: grid;
-    grid-template-columns: repeat(auto-fit, 300px);
+    grid-template-columns: repeat(auto-fit, 400px);
     gap: 16px;
     align-items: center;
     justify-items: center;
     padding: 16px;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 8px 350px;
+    grid-template-rows: 250px 50px;
+    column-gap: 16px;
+    background-color: chartreuse;
+}
+
+.orange-bar {
+    grid-column: 1 / 2;
+    background-color: orange;
 }
